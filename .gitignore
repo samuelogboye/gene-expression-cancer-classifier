@@ -42,10 +42,11 @@ data/*.gz
 data/*.zip
 !data/.gitkeep
 
-# Models (large files)
+# Models (large/generated files)
 models/*.pkl
 models/*.joblib
 models/*.h5
+models/*.csv
 !models/.gitkeep
 
 # Logs
